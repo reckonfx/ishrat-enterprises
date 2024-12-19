@@ -1,6 +1,6 @@
 import Image from "next/image";
 const images = [
-    '/assets/products/Anemo-Meters..jpeg',
+    '/assets/products/Anemo-Meters.jpeg',
     '/assets/products/auto-claves.jpg',
     '/assets/products/balance.webp',
     '/assets/products/c792d90b7dbe68f2c67b5b245fe9e933.jpg',
@@ -53,6 +53,8 @@ const images = [
                   <Image
                     src={image}
                     alt={fileName}
+                    width={200}
+                    height={200}
                     className="w-full h-[200px] object-cover border border-gray-400 rounded-xl transform transition-transform hover:scale-110"
                   />
                   <p className="mt-2 text-lg font-medium text-gray-600">{fileName}</p>
